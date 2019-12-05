@@ -3,7 +3,7 @@ import DomainField from "./Components/DomainField";
 import ResultSet from "./Components/ResultSet";
 import Loading from "./Components/Loading";
 import "./App.css";
-import Validate from "transfer-server-validator";
+import Validate from "stellar-transfer-server-validator";
 
 function App() {
   const [results, setResults] = useState(null);
