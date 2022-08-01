@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import s from "./DomainField.module.css";
 export default function({ onSearch }) {
-  const [value, setValue] = useState("stellar-anchor-server.herokuapp.com");
+  const [value, setValue] = useState("testanchor.stellar.org");
   return (
     <div>
       <input
